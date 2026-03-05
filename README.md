@@ -1,7 +1,5 @@
 <p align="center">
   <img src="static/Logo_pro.jpg" alt="Burp Bounty Pro" height="80">
-  &nbsp;&nbsp;&nbsp;&nbsp;
-  <img src="static/BountySecurity_Logo.png" alt="Bounty Security" height="60">
 </p>
 
 <h1 align="center">Burp Bounty Vuln App</h1>
