@@ -29,6 +29,7 @@ body { font-family: 'Segoe UI', Arial, sans-serif; background: #f0f4f8; color: #
     border-radius: 8px;
     margin-bottom: 30px;
     font-size: 0.95em;
+    text-align: center;
     box-shadow: 0 2px 8px rgba(179,58,0,0.2);
 }
 h2 {
