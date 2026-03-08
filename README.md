@@ -18,7 +18,7 @@
 
 ---
 
-> **WARNING:** This application is **intentionally insecure**. It contains real vulnerability patterns (XSS, SQLi, RCE, SSRF, etc.). If you expose it to the internet, make sure to follow proper hardening practices (firewall, resource limits, network isolation). For local use, run it only in isolated environments.
+> **WARNING:** This application is **intentionally insecure**. It contains real vulnerability patterns (XSS, SQLi, RCE, SSRF, etc.). Run it only in isolated environments.
 
 ## What is this?
 

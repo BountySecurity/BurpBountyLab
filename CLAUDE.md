@@ -6,7 +6,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 Burp Bounty Lab is an **intentionally vulnerable** Flask web application designed for testing [Burp Bounty Pro](https://bountysecurity.ai/pages/burp-bounty) scanner profiles. It simulates a wide range of vulnerability classes (XSS, SQLi, RCE, SSRF, SSTI, XXE, etc.) plus product-specific endpoints (WordPress, Spring Boot, Drupal, Jira, Confluence, etc.) so that Burp Bounty detection profiles can be validated against known-vulnerable targets.
 
-**WARNING:** This application is intentionally insecure. If exposed to the internet, ensure proper hardening (firewall, resource limits, network isolation).
+**WARNING:** This application is intentionally insecure. Run it only in isolated environments.
 
 ## Build & Run
 
