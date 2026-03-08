@@ -2,7 +2,7 @@
   <img src="static/Logo_pro.jpg" alt="Burp Bounty Pro" height="80">
 </p>
 
-<h1 align="center">Burp Bounty Vuln App</h1>
+<h1 align="center">Burp Bounty Lab</h1>
 
 <p align="center">
   <strong>Intentionally vulnerable web application for testing
@@ -22,23 +22,23 @@
 
 ## What is this?
 
-Burp Bounty Vuln App provides a safe, local target to validate that your [Burp Bounty Pro](https://bountysecurity.ai/pages/burp-bounty) scanner profiles detect vulnerabilities correctly. It simulates **100+ vulnerability endpoints** across multiple categories so you can test your profiles against known-vulnerable patterns.
+Burp Bounty Lab provides a safe, local target to validate that your [Burp Bounty Pro](https://bountysecurity.ai/pages/burp-bounty) scanner profiles detect vulnerabilities correctly. It simulates **100+ vulnerability endpoints** across multiple categories so you can test your profiles against known-vulnerable patterns.
 
 ## Quick Start
 
 ### Using Docker Compose (recommended)
 
 ```bash
-git clone https://github.com/BountySecurity/BurpBountyVulnApp.git
-cd BurpBountyVulnApp
+git clone https://github.com/BountySecurity/BurpBountyLab.git
+cd BurpBountyLab
 docker compose up --build
 ```
 
 ### Using Docker directly
 
 ```bash
-docker build -t burpbounty-vulnapp .
-docker run -p 8088:8088 burpbounty-vulnapp
+docker build -t burpbounty-lab .
+docker run -p 8088:8088 burpbounty-lab
 ```
 
 Open **http://localhost:8088** in your browser.
@@ -67,7 +67,7 @@ Open **http://localhost:8088** in your browser.
 
 ## How to Use with Burp Bounty Pro
 
-1. **Start** the Vuln App with Docker
+1. **Start** the Lab with Docker
 2. **Configure** your browser to use Burp Suite as a proxy
 3. **Browse** to `http://localhost:8088` &mdash; the landing page lists all available endpoints
 4. **Load** your Burp Bounty Pro profiles
