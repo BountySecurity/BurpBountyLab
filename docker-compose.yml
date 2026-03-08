@@ -10,8 +10,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: '0.5'
-          memory: 256M
+          cpus: '8'
+          memory: 56G
     security_opt:
       - no-new-privileges:true
     tmpfs:
