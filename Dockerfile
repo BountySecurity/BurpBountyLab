@@ -44,4 +44,4 @@ RUN python -c "import sqlite3; \
 
 EXPOSE 8088
 
-CMD ["python", "app.py"]
+CMD ["gunicorn", "--bind", "0.0.0.0:8088", "--workers", "4", "--threads", "4", "--timeout", "30", "app:app"]
