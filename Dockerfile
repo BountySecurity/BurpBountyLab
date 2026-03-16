@@ -42,6 +42,11 @@ RUN python -c "import sqlite3; \
     c.execute(\"INSERT INTO products VALUES (3, 'Book', 19.99, 'education')\"); \
     conn.commit(); conn.close()"
 
+RUN useradd -r -s /bin/false appuser && \
+    chown -R appuser:appuser /app
+
+USER appuser
+
 EXPOSE 8088
 
 CMD ["gunicorn", "--bind", "0.0.0.0:8088", "--workers", "4", "--threads", "4", "--timeout", "30", "app:app"]
