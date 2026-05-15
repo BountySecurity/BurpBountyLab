@@ -32,6 +32,7 @@ from modules.drupal import drupal_bp
 from modules.misc import misc_bp
 from modules.passive_triggers import passive_bp
 from modules.collaborator import collab_bp
+from modules.ai_endpoints import ai_bp
 
 app.register_blueprint(index_bp)
 app.register_blueprint(xss_bp)
@@ -52,6 +53,7 @@ app.register_blueprint(drupal_bp)
 app.register_blueprint(misc_bp)
 app.register_blueprint(passive_bp)
 app.register_blueprint(collab_bp)
+app.register_blueprint(ai_bp)
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8088, debug=False)

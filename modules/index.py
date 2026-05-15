@@ -276,6 +276,26 @@ h2 {
 <a href="/collab/forgot?email=user@example.com">Password Reset Headers</a>
 </div>
 
+<h2>AI / LLM Disclosure (6 profiles)</h2>
+<div class="section grid">
+<a href="/ai/v1/chat/completions">Chat Completions (OpenAI-compat)</a>
+<a href="/ai/v1/completions">Text Completions (OpenAI-compat)</a>
+<a href="/ai/v1/embeddings">Embeddings</a>
+<a href="/ai/v1/models">Models List</a>
+<a href="/ai/mcp/tools">MCP Tools</a>
+<a href="/ai/health">Health</a>
+<a href="/ai/healthz">Healthz</a>
+<a href="/ai/status">Status</a>
+<a href="/ai/ready">Ready</a>
+<a href="/ai/readyz">Readyz</a>
+<a href="/ai/live">Live</a>
+<a href="/ai/liveness">Liveness</a>
+<a href="/ai/metrics">Metrics</a>
+<a href="/ai/headers">AI Headers Only</a>
+<a href="/ai/gateway">Kong/Envoy Gateway Headers</a>
+<a href="/ai/ratelimit">RateLimit Headers</a>
+</div>
+
 </div>
 <div class="footer">
     Powered by <a href="https://bountysecurity.ai/pages/burp-bounty">Burp Bounty Pro</a> &mdash; <a href="https://bountysecurity.ai">Bounty Security</a>
