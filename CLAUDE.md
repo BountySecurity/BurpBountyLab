@@ -32,6 +32,7 @@ The app listens on port 8088 both inside the container and on the host. No tests
   - `passive_triggers.py` — Endpoints that trigger passive scanner detections (leaked secrets, insecure cookies, missing headers, tech fingerprints)
   - `collaborator.py` — Header injection endpoints for Burp Collaborator-style testing
   - `misc.py` — Source disclosure, exposed .git/.svn, Swagger, DWR endpoints
+  - `ai_endpoints.py` — OpenAI-compatible API surface, health/status/metrics endpoints, and AI / Kong-Envoy gateway / RateLimit response headers
   - `index.py` — Landing page with links to all endpoints
 - **`templates/`** — Currently empty; HTML is rendered inline via `render_template_string`.
 - **`static/`** — Logo images (Logo_pro.jpg, BountySecurity_Logo.png) served by Flask for the landing page.

@@ -64,6 +64,7 @@ Open **http://localhost:8088** in your browser.
 | **Drupal** | 2 | User autocomplete, user profile |
 | **Passive Detection** | 7 | Leaked secrets, insecure cookies, missing headers, tech fingerprints |
 | **Header Injection** | 3 | X-Headers, Host header, password reset |
+| **AI / LLM Disclosure** | 6 | OpenAI-compatible API, health/status/metrics, AI/Kong/Envoy/RateLimit headers |
 
 ## How to Use with Burp Bounty Pro
 
